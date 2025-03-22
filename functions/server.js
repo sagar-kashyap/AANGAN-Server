@@ -104,4 +104,5 @@ const itemList = itemDetails.map((item) => `<li>${item.name} (x${item.quantity})
       }
 })
 
-app.listen(8080, () => console.log("Server running on port 8080"));
+  app.listen(8080, () => console.log("Server running on port 8080"));
+//  exports.api = functions.https.onRequest(app);
